@@ -82,6 +82,8 @@ The notebook saves the trade blotter and daily portfolio ledger to the `results/
 - The backtest evaluates only one pair and does not measure portfolio-level diversification.
 - Future improvements could include a rolling or Kalman-filter hedge ratio, rolling cointegration checks, volatility-scaled position sizing, and testing additional cross-asset pairs.
 
+A future version could also incorporate macroeconomic features such as the U.S. Dollar Index, Japanese yen movements, 10-year Treasury yields, real interest rates, inflation expectations, and Federal Reserve policy language. These variables could provide directional context for precious metals and help identify macroeconomic regimes in which the SLV/GLD relationship may strengthen or weaken. A regime-aware model could then adjust hedge ratios, entry thresholds, or position sizes. These variables would be treated as explanatory signals and risk-management inputs rather than guaranteed predictors of market direction.
+
 ## Disclaimer
 
 This project is for educational and research purposes only. It is not investment advice or a recommendation to trade any security.
