@@ -1,0 +1,9 @@
+#Requires Python 3.12 or newer.
+numpy
+pandas
+scipy
+statsmodels
+plotly
+nbformat
+shinybroker
+ipykernel
